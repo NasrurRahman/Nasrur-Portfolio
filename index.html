@@ -108,24 +108,29 @@ section h2 {
     background-color: #fff;
 }
 
-#expertise ul {
-    max-width: 600px;
+.expertise-list {
+    max-width: 700px;
     margin: 0 auto;
-    text-align: left;
-    padding-left: 1rem;
+    padding: 0;
+    list-style: none;
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 2;
 }
 
-#expertise li {
-    margin-bottom: 0.75rem;
+.expertise-list li {
     position: relative;
-    padding-left: 1.2rem;
+    padding-left: 1.5rem;
+    margin-bottom: 0.5rem;
 }
 
-#expertise li::before {
-    content: '•';
+.expertise-list li::before {
+    content: "•";
     position: absolute;
     left: 0;
-    color: #2c5c2c;
+    color: #ff6b6b;
+    font-size: 1.5rem;
+    line-height: 1;
 }
 
 .social-media {
@@ -285,10 +290,16 @@ footer {
 <p>Fashion &amp; Lifestyle Curator</p>
 </section>
 <section id="expertise">
-<h2>Expertise</h2>
-<p class="expertise-inline">
-            Commercial Projects, Catalog Shoots, Fashion &amp; Editorial Assignments, TV &amp; Film Extra Roles, Promotional Campaigns, Miscellaneous Opportunities, Domain &amp; Hosting Solutions for Creative Ventures.
-        </p>
+    <h2>Expertise</h2>
+    <ul class="expertise-list">
+        <li>Commercial Projects</li>
+        <li>Catalog Shoots</li>
+        <li>Fashion & Editorial Assignments</li>
+        <li>TV & Film Extra Roles</li>
+        <li>Promotional Campaigns</li>
+        <li>Miscellaneous Opportunities</li>
+        <li>Domain & Hosting Solutions for Creative Ventures</li>
+    </ul>
 </section>
 <section class="about-section" id="about">
 <div class="about-container">
